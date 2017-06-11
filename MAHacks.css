@@ -1,0 +1,228 @@
+	/* CSS Reset */
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed, 
+	figure, figcaption, footer, header, hgroup, 
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	}
+	
+	/* Header and basic page start */
+	#bar {
+	background-color: #e86b12;	
+	height: 3px;
+	}
+	#title {
+	color: #e86b12;
+	font-family: 'Patrick Hand SC', sans-serif;
+	font-size: 45px;
+	padding: 1.5% 0;
+	}
+	#how {
+	color: #e86b12;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	vertical-align: middle; 
+	padding: 1.5% 0;
+	}
+	#why {
+	color: #e86b12;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	vertical-align: middle; 
+	padding: 1.5% 0;
+	}
+	#donate {
+	color: #e86b12;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	vertical-align: middle; 
+	padding: 1.5% 0;
+	}
+	span {
+	-o-transition:1.5s;
+	-ms-transition:1.5s;
+	-moz-transition:1.5s;
+	-webkit-transition:1.5s;
+	/* ...and now for the proper property */
+	transition:.5s;	
+		
+	}
+	span:hover {
+	background-color: lightgray;
+	color: grey;
+	}
+	/* Code for right side of header or menu box */
+	.alignleft {
+	float: left;
+	}
+	.alignright {
+	float: right;
+	}
+	/* Text portion of the header */
+	#Parent {
+	vertical-align: center;	
+	}
+	#Header {
+	text-align: left;	
+	font-size: 30;
+	background-color: #fcfcfc;
+	margin:0;
+	padding:0;
+	line-height: 20px;
+	height: 60px;
+	border-bottom: 1px solid;
+	border-color: #f2f2f2;
+	}
+	#logo {
+	margin: 5	
+	}
+	#please {
+	float:left;
+	}
+	#GameArea {
+	width: 100%;
+	text-align:center;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 40px;
+	color: #969696;
+	float:right;
+	/*background-image: url("http://101food.org/programm_sliders/Food/101_food_2.jpg");
+	background-repeat: no-repeat;
+	position: relative;*/
+	}
+	#FirstParaHead {
+	font-family: 'PT Sans', sans-serif;	
+	font-size: 30px;
+	}
+	#FirstPara {
+	font-family: 'PT Sans', sans-serif;	
+	font-size: 18px;
+	}
+	#myCanvas {
+	aling: center;
+	display: inline;	
+	}
+	.Slideshow {
+	float: left;
+	bottom: 0;
+	margin-left: 5px;	
+	width: 100%;
+	height: 80%;
+	}
+	#Paragraph {
+	float: left;
+	width:470px;	
+	margin: 20;
+	}
+	.imgbox{
+	display: flex; 
+	align-items: right;
+	height: 70%;
+	width: 60%;
+	background-position: center center;
+	background-size: cover; 
+	}
+	#img1{
+	position: absolute;
+	z-index: 3;
+	animation: xfade 15s -0s infinite;
+	animation-timing-function: ease-in-out;
+	}
+
+	#img2{
+	position: absolute;
+	z-index: 2;
+	animation: xfade 15s -5s infinite;
+	animation-timing-function: ease-in-out;
+	}
+
+	#img3{
+	position: absolute;
+	 z-index: 1;
+	animation: xfade 15s -10s infinite;
+	animation-timing-function: ease-in-out;
+	}
+
+	@keyframes xfade{
+     0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 0;}
+    100% {opacity: 0;}
+	}
+	#secondimg {
+	float: right;
+	height: 70%;
+	width: 60%;
+	align-items: center;
+	background-position: center center;
+	background-size: cover;
+	float: left; 
+    right:20px;
+	}
+	a#fade {
+	border-bottom: 1px solid rgba(192, 192, 192, 0); 
+	-webkit-transition: border 500ms ease;
+	-moz-transition: border 500ms ease;
+	-ms-transition: border 500ms ease;
+	-o-transition: border 500ms ease;
+	transition: border 500ms ease; 
+	text-decoration: none;
+	color: rgb(150, 150, 150);
+	}
+	a#fade:hover {
+	border-bottom: 1px solid rgb(150, 150, 150)
+	}
+	#GameArea2 {
+	width: 100%;
+	height: 710px;
+	text-align:center;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 40px;
+	color: #969696;
+	background-color:#fcfcfc;
+	float:right;
+	/*background-image: url("http://101food.org/programm_sliders/Food/101_food_2.jpg");
+	background-repeat: no-repeat;
+	position: relative;*/
+	}
+	image {
+	float:right;	
+	}
+	#faq {
+	background-color: white;
+	width: 100%;
+	height: 100px;
+	text-align:left;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 50px;
+	color: white;		
+	}
+	a {
+	text-decoration: underline;
+	color: #969696; 
+	}
+	#GameArea3 {
+	width: 100%;
+	text-align:center;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 40px;
+	color: #969696;
+	float:right;
+	/*background-image: url("http://101food.org/programm_sliders/Food/101_food_2.jpg");
+	background-repeat: no-repeat;
+	position: relative;*/
+	}
